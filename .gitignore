@@ -60,3 +60,5 @@ target/
 
 # Secrets File
 config.py
+
+*~
