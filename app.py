@@ -45,8 +45,10 @@ def voice_incoming():
 
     if caller not in session:
         session[caller] = random.choice(phone.keys())
-        print session[caller]
+        print 'Dreamboy:' + session[caller]
         resp.say("Welcome to Dreamphone! Find your dream boy!")
+
+    resp.gather(numDigits=1, action='/guess', timeout=5)
 
     target_profile = people[phone[target]]
     dream_profile = people[phone[session[caller]]]
@@ -57,7 +59,6 @@ def voice_incoming():
 
     choice = random.choice(options)
 
-    resp.gather(numDigits=1, action='/guess', timeout=2)
     resp.play(get_clue(choice, phone[target]))
  
     return str(resp)
@@ -67,8 +68,6 @@ def guess():
     """Respond to guess for dream boy"""
     target = request.values.get('To', None)
     caller = request.values.get('From', None)
-    print target
-    print caller
 
     #Check if target is the dream boy here
     resp = twilio.twiml.Response()
@@ -77,10 +76,10 @@ def guess():
         #NO ACTIVE SESSION HANDLE THIS
         print 'invalid call to guess'
     elif session[caller] == target:
-        resp.say("You're right! I really do like you")
+        resp.play(get_correct(phone[target]))
         del session[caller]
     else:
-        resp.say("Nice Try, but guess again")
+        resp.play(get_wrong(phone[target]))
 
     return str(resp)
 
@@ -88,6 +87,16 @@ def get_clue(choice, person):
     url = base_url  + str(person).lower() + "/no_" + str(choice) + ".wav"
     print url
     return url 
- 
+
+def get_correct(person):
+    url = base_url + str(person).lower() + "/correct.wav"
+    print url
+    return url
+
+def get_wrong(person):
+    url = base_url + str(person).lower() + "/wrong.wav"
+    print url
+    return url
+
 if __name__ == "__main__":
     app.run(debug=True, port=3000)
