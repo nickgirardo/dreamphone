@@ -4,7 +4,7 @@
 		"food": "dumplings",
 		"travel": "bus",
 		"language": "python",
-		"set": "foods",
+		"set": "food",
 		"saysSpecial": ""
 	},
 	"Josh": {
@@ -12,7 +12,7 @@
 		"food": "dumplings",
 		"travel": "skateboard",
 		"language": "python",
-		"set": "languages",
+		"set": "language",
 		"saysSpecial": ""
 	},
 	"Joe": {
@@ -20,7 +20,7 @@
 		"food": "pizza",
 		"travel": "bike",
 		"language": "go",
-		"set": "languages",
+		"set": "language",
 		"saysSpecial": ""
 	},
 	"Eric": {
@@ -28,7 +28,7 @@
 		"food": "wings",
 		"travel": "bus",
 		"language": "ruby",
-		"set": "foods",
+		"set": "food",
 		"saysSpecial": ""
 	},
 	"Biggie": {
@@ -36,7 +36,7 @@
 		"food": "pizza",
 		"travel": "bike",
 		"language": "javascript",
-		"set": "locations",
+		"set": "location",
 		"saysSpecial": "Sam"
 	},
 	"Sam": {
@@ -44,7 +44,7 @@
 		"food": "nachos",
 		"travel": "skateboard",
 		"language": "python",
-		"set": "foods",
+		"set": "food",
 		"saysSpecial": ""
 	},
 	"Tobias": {
@@ -52,7 +52,7 @@
 		"food": "nachos",
 		"travel": "car",
 		"language": "ruby",
-		"set": "locations",
+		"set": "location",
 		"saysSpecial": ""
 	},
 	"Lars": {
@@ -76,7 +76,7 @@
 		"food": "pizza",
 		"travel": "bike",
 		"language": "javascript",
-		"set": "languages",
+		"set": "language",
 		"saysSpecial": ""
 	},
 	"Shahan": {
@@ -92,7 +92,7 @@
 		"food": "dumplings",
 		"travel": "car",
 		"language": "javascript",
-		"set": "locations",
+		"set": "location",
 		"saysSpecial": ""
 	}
 }
