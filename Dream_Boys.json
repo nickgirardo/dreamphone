@@ -1,0 +1,74 @@
+{
+	"Rich":
+	[
+		food: "dumplings",
+		travel: "bus",
+		language: "python",
+	],
+	"Josh":
+	[
+		food: "dumplings",
+		travel: "skateboard",
+		language: "python",
+	],
+	"Joe":
+	[
+		food: "pizza",
+		travel: "bike",
+		language: "go",
+	],
+	"Eric":
+	[
+		food: "wings",
+		travel: "bus",
+		language: "ruby",
+	],
+	"Biggie":
+	[
+		food: "pizza",
+		travel: "bike",
+		language: "javascript",
+	],
+	"Sam":
+	[
+		food: "nachos",
+		travel: "skateboard",
+		language: "python",
+	],
+	"Tobias":
+	[
+		food: "nachos",
+		travel: "car",
+		language: "ruby",
+	],
+	"Lars":
+	[
+		food: "wings",
+		travel: "car",
+		language: "go",
+	],
+	"Eddie":
+	[
+		food: "nachos",
+		travel: "skateboard",
+		language: "ruby",
+	],
+	"Mike":
+	[
+		food: "pizza",
+		travel: "bike",
+		language: "javascript",
+	],
+	"Shahan":
+	[
+		food: "wings",
+		travel: "bus",
+		language: "go",
+	],
+	"Nick":
+	[
+		food: "dumplings",
+		travel: "car",
+		language: "javascript",
+	]
+}
