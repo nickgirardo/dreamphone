@@ -5,7 +5,7 @@
 		"travel": "bus",
 		"language": "python",
 		"set": "foods",
-		"saysSpecial": ""
+		"saysSpecial": "Tobias"
 	},
 	"Josh": {
 		"location": "commune", 
@@ -13,7 +13,7 @@
 		"travel": "skateboard",
 		"language": "python",
 		"set": "languages",
-		"saysSpecial": ""
+		"saysSpecial": "Eric"
 	},
 	"Joe": {
 		"location": "commune",
@@ -21,7 +21,7 @@
 		"travel": "bike",
 		"language": "go",
 		"set": "languages",
-		"saysSpecial": ""
+		"saysSpecial": "Shahan"
 	},
 	"Eric": {
 		"location": "cave",
@@ -29,7 +29,7 @@
 		"travel": "bus",
 		"language": "ruby",
 		"set": "foods",
-		"saysSpecial": ""
+		"saysSpecial": "Rich"
 	},
 	"Biggie": {
 		"location": "cave",
@@ -45,7 +45,7 @@
 		"travel": "skateboard",
 		"language": "python",
 		"set": "foods",
-		"saysSpecial": ""
+		"saysSpecial": "Lars"
 	},
 	"Tobias": {
 		"location": "bar",
@@ -53,7 +53,7 @@
 		"travel": "car",
 		"language": "ruby",
 		"set": "locations",
-		"saysSpecial": ""
+		"saysSpecial": "Nick"
 	},
 	"Lars": {
 		"location": "cave",
@@ -61,7 +61,7 @@
 		"travel": "car",
 		"language": "go",
 		"set": "travel",
-		"saysSpecial": ""
+		"saysSpecial": "Biggie"
 	},
 	"Eddie": {
 		"location": "bar",
@@ -69,7 +69,7 @@
 		"travel": "skateboard",
 		"language": "ruby",
 		"set": "travel",
-		"saysSpecial": ""
+		"saysSpecial": "Josh"
 	},
 	"Swift": {
 		"location": "bar",
@@ -77,7 +77,7 @@
 		"travel": "bike",
 		"language": "javascript",
 		"set": "languages",
-		"saysSpecial": ""
+		"saysSpecial": "Eddie"
 	},
 	"Shahan": {
 		"location": "cave",
@@ -93,6 +93,6 @@
 		"travel": "car",
 		"language": "javascript",
 		"set": "locations",
-		"saysSpecial": ""
+		"saysSpecial": "Swift"
 	}
 }
