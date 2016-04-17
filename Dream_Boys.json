@@ -1,74 +1,99 @@
 {
 	"Rich":
 	[
+		location: "commune",
 		food: "dumplings",
 		travel: "bus",
 		language: "python",
+		set: "foods",
+		saysSpecial: ""
 	],
 	"Josh":
-	[
+	[		location: "commune",
 		food: "dumplings",
 		travel: "skateboard",
 		language: "python",
+		set: "languages",
+		saysSpecial: ""
 	],
 	"Joe":
-	[
+	[		location: "commune",
 		food: "pizza",
 		travel: "bike",
 		language: "go",
+		set: "languages",
+		saysSpecial: ""
 	],
 	"Eric":
-	[
+	[		location: "cave",
 		food: "wings",
 		travel: "bus",
 		language: "ruby",
+		set: "foods",
+		saysSpecial: ""
 	],
 	"Biggie":
-	[
+	[		location: "cave",
 		food: "pizza",
 		travel: "bike",
 		language: "javascript",
+		set: "locations",
+		saysSpecial: "Sam"
 	],
 	"Sam":
-	[
+	[		location: "bar",
 		food: "nachos",
 		travel: "skateboard",
 		language: "python",
+		set: "foods",
+		saysSpecial: ""
 	],
 	"Tobias":
-	[
+	[		location: "bar",
 		food: "nachos",
 		travel: "car",
 		language: "ruby",
+		set: "locations",
+		saysSpecial: ""
 	],
 	"Lars":
-	[
+	[		location: "cave",
 		food: "wings",
 		travel: "car",
 		language: "go",
+		set: "travel",
+		saysSpecial: ""
 	],
 	"Eddie":
-	[
+	[		location: "bar",
 		food: "nachos",
 		travel: "skateboard",
 		language: "ruby",
+		set: "travel",
+		saysSpecial: ""
 	],
-	"Mike":
-	[
+	"Swift":
+	[		location: "bar",
 		food: "pizza",
 		travel: "bike",
 		language: "javascript",
+		set: "languages",
+		saysSpecial: ""
 	],
 	"Shahan":
-	[
+	[		location: "cave",
 		food: "wings",
 		travel: "bus",
 		language: "go",
+		set: "travel",
+		saysSpecial: "Joe"
 	],
 	"Nick":
-	[
+	[		location: "commune",
 		food: "dumplings",
 		travel: "car",
 		language: "javascript",
+		set: "locations",
+		saysSpecial: ""
 	]
 }
