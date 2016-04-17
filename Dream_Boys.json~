@@ -1,0 +1,98 @@
+{
+	"Rich": {
+		"location": "commune",
+		"food": "dumplings",
+		"travel": "bus",
+		"language": "python",
+		"set": "foods",
+		"saysSpecial": "Tobias"
+	},
+	"Josh": {
+		"location": "commune", 
+		"food": "dumplings",
+		"travel": "skateboard",
+		"language": "python",
+		"set": "languages",
+		"saysSpecial": "Eric"
+	},
+	"Joe": {
+		"location": "commune",
+		"food": "pizza",
+		"travel": "bike",
+		"language": "go",
+		"set": "languages",
+		"saysSpecial": "Shahan"
+	},
+	"Eric": {
+		"location": "cave",
+		"food": "wings",
+		"travel": "bus",
+		"language": "ruby",
+		"set": "foods",
+		"saysSpecial": "Rich"
+	},
+	"Biggie": {
+		"location": "cave",
+		"food": "pizza",
+		"travel": "bike",
+		"language": "javascript",
+		"set": "locations",
+		"saysSpecial": "Sam"
+	},
+	"Sam": {
+		"location": "bar",
+		"food": "nachos",
+		"travel": "skateboard",
+		"language": "python",
+		"set": "foods",
+		"saysSpecial": "Lars"
+	},
+	"Tobias": {
+		"location": "bar",
+		"food": "nachos",
+		"travel": "car",
+		"language": "ruby",
+		"set": "locations",
+		"saysSpecial": "Nick"
+	},
+	"Lars": {
+		"location": "cave",
+		"food": "wings",
+		"travel": "car",
+		"language": "go",
+		"set": "travel",
+		"saysSpecial": "Biggie"
+	},
+	"Eddie": {
+		"location": "bar",
+		"food": "nachos",
+		"travel": "skateboard",
+		"language": "ruby",
+		"set": "travel",
+		"saysSpecial": "Josh"
+	},
+	"Swift": {
+		"location": "bar",
+		"food": "pizza",
+		"travel": "bike",
+		"language": "javascript",
+		"set": "languages",
+		"saysSpecial": "Eddie"
+	},
+	"Shahan": {
+		"location": "cave",
+		"food": "wings",
+		"travel": "bus",
+		"language": "go",
+		"set": "travel",
+		"saysSpecial": "Joe"
+	},
+	"Nick": {
+		"location": "commune",
+		"food": "dumplings",
+		"travel": "car",
+		"language": "javascript",
+		"set": "locations",
+		"saysSpecial": "Swift"
+	}
+}
