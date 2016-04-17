@@ -35,7 +35,7 @@ categories = {
 
 base_url = "https://raw.githubusercontent.com/nickgirardo/dreamphone/master/audio/final/"
 
-@app.route("/voice", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def voice_incoming():
     """Respond to incoming requests."""
     target = request.values.get('To', None)
@@ -53,10 +53,14 @@ def voice_incoming():
     target_profile = people[phone[target]]
     dream_profile = people[phone[session[caller]]]
 
+    if target_profile['saysSpecial'] == phone[session[caller]]:
+	roll = random.randint(0,9)
+	if roll == 0:
+		resp.play(get_special(phone[target], target_profile['saysSpecial']))
+		return str(resp)
+
     category = target_profile['set']
-
     options = [x for x in categories[category] if x != dream_profile[category]]
-
     choice = random.choice(options)
 
     resp.play(get_clue(choice, phone[target]))
@@ -97,6 +101,11 @@ def get_wrong(person):
     url = base_url + str(person).lower() + "/wrong.wav"
     print url
     return url
+
+def get_special(target, dreamboy):
+	url = base_url + str(target).lower() + "/" + dreamboy.lower() + "_special.wav"
+	print url
+	return url
 
 if __name__ == "__main__":
     app.run(debug=True, port=3000)
