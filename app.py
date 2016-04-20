@@ -33,7 +33,7 @@ categories = {
     'language': ['ruby', 'python', 'javascript', 'go'],
 }
 
-base_url = "https://raw.githubusercontent.com/nickgirardo/dreamphone/master/audio/final/"
+base_url = "https://raw.githubusercontent.com/nickgirardo/dreamphone/master/assets/audio/final/"
 
 @app.route("/", methods=['GET', 'POST'])
 def voice_incoming():
