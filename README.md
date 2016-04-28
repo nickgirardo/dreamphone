@@ -26,6 +26,6 @@ Eric Bronner, who deserves a special thanks for helping the voicework process al
 and Ed Choi, who also deserves a special thanks for providing back-up voice work.
 
 ## Awards
-HackRU Twilio API Prize 
+HackRU Twilio API Prize                                                               
 HackRU Funniest Hack
 
